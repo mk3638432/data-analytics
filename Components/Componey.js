@@ -2,7 +2,7 @@ import React from 'react'
 
 const Analytic = () => {
     return (
-        <div className='w-full h-screen bg-white py-14 px-4 '>
+        <div id='compony' className='w-full h-screen bg-white py-14 px-4 '>
             <div className='max-w-[1240px] bg-white mx-auto grig md:grid-cols-2 '>
                 <img className='w-[500px] mx-auto ' src='https://images.pexels.com/photos/1006293/pexels-photo-1006293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'  alt='/' />
                 <div className='flex flex-col justify-center items-center py-10 bg-white'> 

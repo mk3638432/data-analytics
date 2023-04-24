@@ -9,12 +9,14 @@ import {
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-10 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div id='contact' className='max-w-[1240px] mx-auto py-10 px-4 h-[300px] text-gray-300'>
+      <h1 className='text-center font-bold text-3xl py-3 text-[#00df9a]'>Contact</h1>
         <div>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>NEXT.JS</h1>
-        <p className='py-2 '>Lorem  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaec
+        <h1 className='w-full text-3xl text-center font-bold text-[#00df9a]'>NEXT.JS</h1>
+        <p className='py-4 text-center '>Lorem  in reprehenderit in voluptate velit esse cillum dolore 
+        <br/> eu fugiat nulla pariatur. Excepteur sint occaec
              sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-             <div className='flex justify-evenly'>
+             <div className='flex  py-6 justify-evenly'>
                 <FaFacebook size={30}/>
                 <FaDribbbleSquare size={30}/>
                 <FaInstagram  size={30}/>

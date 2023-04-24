@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
   return (
-    <div className='w-full py-[5rem] px-4 bg-white'>Cards
+    <div id='plans' className='w-full py-[5rem] px-4 bg-white'>Cards
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-3'>
         <div className='w-full shadow-xl flex flex-col p-4  bg-white hover:scale-105 duration-500'>
        <img className='w-20 mx-auto' src='https://th.bing.com/th/id/OIP.mDv826UG65YB8vFcW1SB3QHaHa?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7' alt='/'/>
